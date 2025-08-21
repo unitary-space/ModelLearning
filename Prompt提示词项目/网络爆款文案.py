@@ -36,5 +36,5 @@ response = client.chat.completions.create(
         }],
     model="qwen-plus-2025-04-28",
 )
-# 大模型现有的知识中并没有Xiaomisu7的内容。   大模型在训练出来的时候，知识会停留在训练的那个时刻。无法实时更新。
+# 大模型现有的知识中并没有 Xiaomisu7 的内容。   大模型在训练出来的时候，知识会停留在训练的那个时刻。无法实时更新。
 print(response.choices[0].message.content)
